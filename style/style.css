@@ -2,3 +2,44 @@
 By Ethan McGarry
 Written for ITMD-361-01
 */
+
+/*Styling for table of contents*/
+
+nav#toc ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: #8A2BE2;
+}
+
+nav#toc ul li {
+	float: left;
+	margin: 0 90px;
+}
+
+nav#toc ul li a {
+	display: block;
+	padding: 10px;
+	font-size: 30px;
+	color: 	#F0F8FF;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+	background-color: #8A2BE2;
+}
+
+nav#toc ul li a:hover {
+	background-color: #4B0082;
+}
+
+nav#toc ul li a:active {
+	color: 	#FFC0CB;
+}
+
+h1#topHead {
+	color: #4B0082;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Signika', sans-serif;
+}

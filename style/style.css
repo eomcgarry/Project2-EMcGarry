@@ -48,6 +48,11 @@ body {
 	color: 	#FFC0CB;
 }
 
+/*Hidden TOC header for validtor, shared across pages*/
+h6 {
+	visibility: hidden;
+}
+
 /*Blanket h1/h2 styles shared across pages*/
 h1 {
 	text-align: center;

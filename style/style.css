@@ -3,8 +3,12 @@ By Ethan McGarry
 Written for ITMD-361-01
 */
 
-/*Styling for table of contents*/
-
+/*Background style shared across pages, layered with transparent white on top*/
+body { 
+	margin: auto;
+	background: #000000 url(../img/earthrise.jpg) no-repeat fixed center;
+}
+/*Styling for table of contents shared across pages*/
 .tocBar {
 	overflow: hidden;
 	background-color: #8A2BE2;
@@ -44,6 +48,7 @@ Written for ITMD-361-01
 	color: 	#FFC0CB;
 }
 
+/*Blanket h1/h2 styles shared across pages*/
 h1 {
 	text-align: center;
 	padding: 10px;
@@ -64,6 +69,7 @@ h2 {
 	font-family: 'Signika', sans-serif;
 }
 
+/*Resume page styling*/
 .resumeHead {
 	text-align: left;
 	padding-left: 1%;
@@ -99,3 +105,70 @@ h2 {
 	padding-bottom: 3px;
 }
 
+/*Sandwich page styling*/
+.sandwichBody {
+	font-family: Arial, sans-serif;
+	padding-bottom: 3px;
+	padding: 0px;
+	line-height: 200%;
+	text-align: center;
+}
+
+.sandwichBody p {
+	font-weight: bold;
+}
+
+.sandwichBody ul {
+	padding-left: 3%;
+	list-style-type: square;
+	padding-bottom: 3px;
+}
+
+.sandwichBody h3 {
+	text-align: center;
+	padding: 0px;
+	color: #4B0082;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Signika', sans-serif;
+}
+
+.sandwichBody img iframe {
+	max-width: 50%;
+	height: auto;
+}
+
+/*Bread page styling*/
+.breadBody {
+	font-family: Arial, sans-serif;
+	padding-bottom: 3px;
+	padding: 0px;
+	line-height: 200%;
+	text-align: center;
+}
+
+.breadBody p {
+	font-weight: bold;
+}
+
+.sandwichBody ul {
+	padding-left: 3%;
+	list-style-type: square;
+	padding-bottom: 3px;
+}
+
+.breadBody h3 {
+	text-align: center;
+	padding: 0px;
+	color: #4B0082;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Signika', sans-serif;
+}
+
+.breadBody img {
+	max-width: 303px;
+	max-height: 404px;
+}

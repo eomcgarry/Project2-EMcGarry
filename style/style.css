@@ -205,13 +205,13 @@ iframe {
 	width: 50%;
 }
 
-#imgLeft { 
+#breadLeft img { 
 	width: 303px;
 	max-height: 404px;
 	padding: 5px 10px;
 }
 
-#imgRight { 
+#breadRight img { 
 	width: 303px;
 	max-height: 404px;
 	padding: 5px 10px;

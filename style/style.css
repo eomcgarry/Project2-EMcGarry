@@ -9,21 +9,21 @@ body {
 	background: #000000 url(../img/earthrise.jpg) no-repeat fixed center;
 }
 /*Styling for table of contents shared across pages*/
-.tocBar {
+#tocBar {
 	background-color: #8A2BE2;
 	width: 100%;
 	position: relative;
 	overflow: hidden;
 }
 
-.tocContainer {
+#tocContainer {
 	position: relative;
 	float: left;
 	left: 50%;
 	display: block;
 }
 
-.tocContainer ul {
+#tocContainer ul {
 	position: relative;
 	list-style-type: none;
 	margin: 0;
@@ -33,12 +33,12 @@ body {
 	display: block;
 }
 
-.tocContainer ul li {
+#tocContainer ul li {
 	float: left;
-	padding: 10px 20px;
+	padding: 10px 50px;
 }
 
-.tocContainer ul li a {
+#tocContainer ul li a {
 	font-size: 40px;
 	color: 	#F0F8FF;
 	text-decoration: none;
@@ -48,11 +48,11 @@ body {
 	background-color: #8A2BE2;
 }
 
-.tocContainer ul li a:hover {
+#tocContainer ul li a:hover {
 	background-color: #4B0082;
 }
 
-.tocContainer ul li a:active {
+#tocContainer ul li a:active {
 	color: 	#FFC0CB;
 }
 

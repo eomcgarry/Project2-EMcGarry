@@ -154,6 +154,12 @@ h2 {
 	height: auto;
 }
 
+/*Video Formatting, only on Sandwich page*/
+iframe {
+	min-width: 560px;
+	min-height: 315px;
+}
+
 /*Bread page styling*/
 .breadBody {
 	font-family: Arial, sans-serif;

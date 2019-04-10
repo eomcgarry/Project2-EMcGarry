@@ -35,7 +35,7 @@ body {
 
 #tocContainer ul li {
 	float: left;
-	padding: 10px 50px;
+	padding: 15px 50px;
 }
 
 #tocContainer ul li a {
@@ -58,7 +58,9 @@ body {
 
 /*Hidden TOC header for validtor, shared across pages*/
 h6 {
-	visibility: hidden;
+	font-size: 1px;
+	color: #8A2BE2;
+	background-color: #8A2BE2;
 }
 
 /*Blanket h1/h2 styles shared across pages*/

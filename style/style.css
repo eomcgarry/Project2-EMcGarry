@@ -193,3 +193,26 @@ iframe {
 	max-width: 303px;
 	max-height: 404px;
 }
+
+/*Formatting for collection of bread images */
+#breadLeft {
+	float: left;
+	width: 50%;
+}
+
+#breadRight {
+	float: right;
+	width: 50%;
+}
+
+#imgLeft { 
+	width: 303px;
+	max-height: 404px;
+	padding: 5px 10px;
+}
+
+#imgRight { 
+	width: 303px;
+	max-height: 404px;
+	padding: 5px 10px;
+}
